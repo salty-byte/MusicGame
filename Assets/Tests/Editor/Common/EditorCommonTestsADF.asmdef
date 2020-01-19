@@ -1,0 +1,16 @@
+{
+    "name": "EditorCommonTestsADF",
+    "references": [
+        "GUID:2f24b1eaa4cef48858b752c85a8abed8"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

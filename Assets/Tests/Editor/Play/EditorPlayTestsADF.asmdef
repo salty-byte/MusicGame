@@ -1,0 +1,16 @@
+{
+    "name": "EditorPlayTestsADF",
+    "references": [
+        "GUID:824c85b9fd5f64b939c63d820d800c24"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

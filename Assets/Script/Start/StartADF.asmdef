@@ -1,0 +1,15 @@
+{
+    "name": "StartADF",
+    "references": [
+        "GUID:2f24b1eaa4cef48858b752c85a8abed8",
+        "GUID:c0c43035ec9e5476a87949fecba17ffe"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

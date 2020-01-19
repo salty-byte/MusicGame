@@ -1,0 +1,14 @@
+{
+    "name": "LoadADF",
+    "references": [
+        "GUID:2f24b1eaa4cef48858b752c85a8abed8"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
