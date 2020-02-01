@@ -4,8 +4,12 @@ Music Game
 ## 概要
 Unityで作った音楽ゲームです。
 
-## デモ
-TODO
+## デモ(Screen Shots)
+* 楽曲選択画面
+![SS_Select01](Demo/Images/SS_Select01.png) 
+
+* 楽曲プレイ画面
+![SS_Play01](Demo/Images/SS_Play01.png)
 
 ## 対象プラットフォーム
 対象プラットフォーム：Android, Windows, MacOS  
