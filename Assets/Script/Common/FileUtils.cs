@@ -14,10 +14,10 @@ public static class FileUtils
 	/// <returns>ゲームデータを保存するパス文字列を返す。</returns>
 	public static string GetGameDataPath ()
 	{
-#if UNITY_EDITOR
-		return Application.dataPath + "/GameData/";
-#else
+#if UNITY_ANDROID
 		return Application.persistentDataPath + "/GameData/";
+#else
+		return Application.dataPath + "/GameData/";
 #endif
 	}
 
