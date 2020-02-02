@@ -16,27 +16,27 @@ Unityで作った音楽ゲームです。
 ※iOSは楽曲データをどうするか問題があるため未対応です。
 
 ## 利用方法
-* Android  
-	1. Unityプロジェクトをビルド。  
-	2. Assets内の `GameData` フォルダを以下のパスに格納する。  
-	```  
-        /storage/emulated/0/Android/data/<packagename>/files
-        ```  
-	3. アプリを起動する。  
-* Windows  
-	1. Unityプロジェクトをビルド。  
-        2. Assets内の `GameData` フォルダを以下のパスに格納する。  
-        ```  
-        <path to executablename_ Data folder>/
-        ```  
-	3. アプリを起動する。  
-* MacOS  
-	1. Unityプロジェクトをビルド。  
-        2. Assets内の `GameData` フォルダを以下のパスに格納する。  
-        ```  
-        <path to player app bundle>/Contents/
-        ```  
-	3. アプリを起動する。  
+#### Android  
+1. Unityプロジェクトをビルド。  
+2. Assets内の `GameData` フォルダを `Application.persistentDataPath` 配下に格納する。
+```  
+/storage/emulated/0/Android/data/<packagename>/files/GameData/
+```  
+3. アプリを起動する。  
+#### Windows  
+1. Unityプロジェクトをビルド。  
+2. Assets内の `GameData` フォルダを `Application.dataPath` 配下に格納する。
+```  
+{APP_NAME}_Data/GameData/
+```  
+3. アプリを起動する。  
+#### MacOS  
+1. Unityプロジェクトをビルド。  
+2. Assets内の `GameData` フォルダを `Application.dataPath` 配下に格納する。  
+```  
+{APP_PATH}/Contents/GameData/
+```  
+3. アプリを起動する。  
 
 ## 開発時Unityバージョン
 2019.2.17.f3  
