@@ -392,6 +392,8 @@ public class GameManager : MonoBehaviour
 
 		status = GameStatus.Finished;
 		audioManager.StopBGM ();
+
+		StartCoroutine (GoResultSceneDelayed (3f));
 	}
 
 	/// <summary>
@@ -421,6 +423,17 @@ public class GameManager : MonoBehaviour
 	void GoResultScene ()
 	{
 		GoNextScene (SceneName.Select); // TODO Resultシーンを作成する。
+	}
+
+	/// <summary>
+	/// <c>time</c>秒後にゲーム結果画面へ遷移する。
+	/// </summary>
+	/// <param name="time">遷移するまでの待機時間（秒）。</param>
+	/// <returns></returns>
+	IEnumerator GoResultSceneDelayed (float time)
+	{
+		yield return new WaitForSeconds (time);
+		GoResultScene ();
 	}
 
 	/// <summary>
