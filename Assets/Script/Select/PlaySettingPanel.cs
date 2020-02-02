@@ -24,7 +24,9 @@ public class PlaySettingPanel : MonoBehaviour
 		if (isAuto) {
 			settings.Mode = PlayMode.Auto;
 		} else {
-#if UNITY_ANDROID
+#if UNITY_EDITOR
+			settings.Mode = PlayMode.Key;
+#elif UNITY_ANDROID
 			settings.Mode = PlayMode.Touch;
 #else
 			settings.Mode = PlayMode.Key;
